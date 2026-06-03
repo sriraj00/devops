@@ -1,0 +1,11 @@
+import subprocess
+
+commit_hash = "a1b2c3d"
+
+result = subprocess.run(
+    ["git", "show", commit_hash],
+    capture_output=True,
+    text=True
+)
+
+print(result.stdout)  
