@@ -1,6 +1,6 @@
 import subprocess
 
-commit_hash = "a1b2c3d"
+commit_hash = "sushma"
 
 result = subprocess.run(
     ["git", "show", commit_hash],
